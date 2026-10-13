@@ -1,9 +1,9 @@
-﻿using System;
+﻿using LearnOpenTK.Common;
 using OpenTK.Graphics.OpenGL4;
-using LearnOpenTK.Common;
-using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.Common;
+using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
+using System;
 using System.Diagnostics;
 
 namespace LearnOpenTK
@@ -19,7 +19,7 @@ namespace LearnOpenTK
         private readonly float[] _vertices =
         {
              // positions        // colors
-             0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,   // bottom right
+             0.5f, -0.5f, 0.0f,  0.0f, 0.0f, 0.0f,   // bottom right
             -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   // bottom left
              0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f    // top 
         };
